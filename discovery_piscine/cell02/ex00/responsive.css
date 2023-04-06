@@ -1,0 +1,16 @@
+* {
+    height: 100%;
+    margin: 0px;
+}
+table, th, td {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+}
+#orange {
+    background-color: orange;
+}
+#green {
+    background-color: greenyellow;
+}

@@ -2,20 +2,20 @@
     <title>Basics</title>
     <body>
         <h1>Basics!</h1>
-        <div class="row">
+            <div class="row">
+                    <div class="column">
+                        <img id="images" src="g2a.png">
+                    <figcaption>
+                        <a href="https://www.g2a.com/">G2A_Link</a>
+                    </figcaption>
+                </div>
                 <div class="column">
-                    <img id="images" src="horror.jpeg">
-                <figcaption>
-                    <a href="https://store.steampowered.com/app/1046820/Im_on_Observation_Duty/">I'm_on_Observation_Duty_Link</a>
-                </figcaption>
+                    <img id="images" src="inc.jpeg">
+                    <figcaption>
+                        <a href="https://deceiveinc.com">Decieve_inc._Link</a>
+                    </figcaption>
+                </div>
             </div>
-            <div class="column">
-                <img id="images" src="inc.jpeg">
-                <figcaption>
-                    <a href="https://deceiveinc.com">Decieve_inc._Link</a>
-                </figcaption>
-            </div>
-        </div>
         <hr>
         <div style="text-align: right">
             <p1 id="credits"><em>© 42adel-dp-24 2023</em></p1>
@@ -30,6 +30,8 @@
             text-align: center; 
         }
         .row {
+            display: flex;
+            justify-content: center;
             display: flex;
         }
         .column {

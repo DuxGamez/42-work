@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+}
+body, html {
+    height: 100%;
+}
+.parallax1 {
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    background-image: url('craft.jpeg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    background-image: url('weegi.jpeg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blackBox {
+    height: 100%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.centered {
+    margin: 0;
+    position: absolute;
+    top: 150%;
+    right: 50%;
+}
+#whiteText {
+    color: white;
+}

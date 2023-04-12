@@ -1,0 +1,58 @@
+<html>
+    <title>Calculator</title>
+    <body>
+        <table id="calcBox">
+            <tr>
+                <td>
+                    <input type="text" id="num1" name="num1" class="numInput">
+                </td>
+                <td>
+                    <select name="operator" id="operator">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                        <option value="%">%</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" id="num2" name="num2" class="numInput">
+                </td>
+                <td>
+                    <button onclick="calculate()">Try Me!</button>
+                </td>
+            </tr>     
+        </table>
+    </body>
+    <script type="text/javascript">
+        function calculate(value) {
+            var calc1 = document.getElementById("num1").value;
+            var calc2 = document.getElementById("num2").value;
+            var select = document.getElementById("operator");
+            var option = select.options[select.selectedIndex].text;
+            if (calc1 < 0 || calc2 < 0){
+                alert("Error :(")
+                console.log("Error :(")
+            } else if (calc2 == 0 && option == '%' || calc2 == 0 && option == '/') {
+                alert("It’s over 9000!")
+                console.log("It’s over 9000!")
+            }
+            else {
+                var calculated = eval(calc1 + option + calc2);
+                console.log("The answer is " + calculated);
+                alert("The answer is " + calculated);
+            }
+        }
+        const doom = setInterval(UseMe, 30000);
+
+        function UseMe() {
+            let text = "Please, use me...";
+            alert(text);
+        }
+    </script>
+    <style>
+        .numInput {
+            width: 50px;
+        }
+    </style>
+</html>

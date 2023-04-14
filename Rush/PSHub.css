@@ -131,14 +131,14 @@
 }
 
 .card:nth-child(1) .card-footer {
-    background: #1EB33C;
+    background: #037dbc;
 }
 .card:nth-child(2) .card-footer {
     background: #000000;
 
 }
 .card:nth-child(1) .power {
-    color: #1EB33C;
+    color: #037dbc;
 }
 .card:nth-child(2) .power {
     color: #000000;
@@ -166,7 +166,7 @@
 }
 
 .selector button {
-    background-color: #1EB33C;
+    background-color: #037dbc;
     color: #fff;
     outline: none;
     border: 2px solid currentColor;

@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 li a, button {
@@ -20,12 +21,12 @@ ul {
 
 }
 
-header img {
+.Navigation_Bar img {
     height: 80px;
 }
 
 
-header {
+.Navigation_Bar header {
     background-color: #037dbc;
     position: fixed;
     height: 80px;
@@ -37,10 +38,7 @@ header {
     padding: 10px 1%;
 }
 
-body {
-    height: 125vh;
-    background-color: #abdbe3;
-}
+
 
 .nav_links {
     list-style: none;
@@ -56,7 +54,7 @@ body {
 }
 .nav_links li a:hover {
     transition: all 0.3s ease 0s;
-    color: blueviolet;
+    color: black;
 }
 
 button {
@@ -72,4 +70,14 @@ button {
 
 button:hover {
     background-color: rgba(0,136,169,0.8);
+}
+
+.Blank {
+    height: 80px;
+}
+
+.section1 {
+    background-color: #abdbe3;
+    height: 1900px;
+    width: 100%;
 }

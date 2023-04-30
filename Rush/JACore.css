@@ -76,8 +76,42 @@ button:hover {
     height: 80px;
 }
 
-.section1 {
-    background-color: #abdbe3;
-    height: 1900px;
+.Heading {
+    background-color: #8dc7d1;
+    height: 30px;
     width: 100%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: flex;
+}
+
+.Section1 {
+    background-color: #8dc7d1;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.Section1 p {
+    padding-top: 10px ;
+    padding-right: 200px;
+}
+
+.Section2 {
+    background-color: #8dc7d1;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.Section2 p {
+    padding-top: 25px ;
+    padding-right: 200px;
 }

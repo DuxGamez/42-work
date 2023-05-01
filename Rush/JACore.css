@@ -77,7 +77,7 @@ button:hover {
 }
 
 .Heading {
-    background-color: #8dc7d1;
+    background-color: #35737e;
     height: 30px;
     width: 100%;
     color: white;
@@ -88,7 +88,7 @@ button:hover {
 }
 
 .Section1 {
-    background-color: #8dc7d1;
+    background-color: #35737e;
     width: 100%;
     color: white;
     text-decoration: none;
@@ -102,13 +102,14 @@ button:hover {
 }
 
 .Section2 {
-    background-color: #8dc7d1;
+    background-color: #35737e;
     width: 100%;
     color: white;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 20px;
+    height: 1000px;
 }
 
 .Section2 p {
